@@ -81,7 +81,7 @@ const BlogTitle = styled.h3`
 const IndexPage = ({ data }) => (
   <Layout>
     <div>
-      <h1>Ethan's Thoughts</h1>
+      <h1>Practice Gatsby Blog</h1>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <BlogLink to={node.fields.slug}>
